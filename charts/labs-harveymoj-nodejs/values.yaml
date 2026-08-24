@@ -2,7 +2,7 @@ nodejs:
   applicationPort: 8080
   aadIdentityName: labs
   ingressHost: labs-harveymoj-nodejs.{{ .Values.global.environment }}.platform.hmcts.net
-  image: 'hmctssbox.azurecr.io/labs/harveymoj-nodejs:latest'
+  image: 'hmctsprod.azurecr.io/labs/harveymoj-nodejs:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
   #    labs:
