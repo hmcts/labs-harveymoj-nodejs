@@ -10,3 +10,4 @@ services:
         - no_proxy
     ports:
       - '8080:8080'
+
